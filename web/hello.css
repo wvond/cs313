@@ -5,8 +5,7 @@
 div {
     display: flex; 
     background-color: darkgrey;
-    border: 2rem;
-    text-align: center;
+    align-items: center;
 }
 
 h1 {
