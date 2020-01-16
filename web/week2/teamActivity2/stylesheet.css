@@ -1,8 +1,9 @@
 div.container {
     display: flex;
-    flex-direction: column;
+    
 }
 div.contain{
+    flex-direction: column;
     max-width: 50%;    
 }
 div {
