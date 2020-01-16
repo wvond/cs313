@@ -9,22 +9,28 @@
 </head>
 
 <body>
+    <!-- //Main header -->
     <h1 style="text-align:center; font-family: 'Special Elite', cursive;">PHP Team Activity</h1>
     <div class="container">
+        <!--Creating the main content of the exercise-->
         <?php function multiDiv(){?>
             <h2>PHP Team Activity</h2>
         <?php
             for($i = 0; $i < 10; $i++){
                 if ($i % 2 == 0) {
-                    echo "<div class='contain'; style='color:red; font-family: 'Special Elite', cursive;'> This is div #" . $i . "</div>";
+                    echo "<div style='color:red; font-family: 'Special Elite', cursive;'> This is div #" . $i . "</div>";
                 } else {
-                    echo "<div class='contain'; style='font-family: 'Special Elite', cursive;'> This is div #" . $i . "</div>";
+                    echo "<div style='font-family: 'Special Elite', cursive;'> This is div #" . $i . "</div>";
                 }
             }
         }
         ?> 
-        <?php multiDiv()?>
-        <?php multiDiv()?>
+        <div class=contain>
+            <?php multiDiv();?>
+        </div>
+        <div class=contain>
+            <?php multiDiv();?>
+        </div>
     </div>
     
 </body>
