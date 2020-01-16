@@ -1,11 +1,14 @@
 div.container {
     display: flex;
-    
+    font-family: 'Special Elite', cursive; 
 }
-div.contain{
-    flex-direction: column;
-    max-width: 50%;    
+
+div.contain {
+    grid-gap: 5px;
+    padding: 0px;
+    max-width: 50%;
 }
+
 div {
     border: 1px solid black;
 }
