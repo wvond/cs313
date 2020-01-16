@@ -1,0 +1,9 @@
+div.container {
+    display: flex;
+}
+div.contain{
+    max-width: 50%;    
+}
+div {
+    border: 1px solid black;
+}
