@@ -1,8 +1,8 @@
 div.container {
     display: flex;
+    flex-direction: column;
 }
 div.contain{
-    display: grid;
     max-width: 50%;    
 }
 div {
