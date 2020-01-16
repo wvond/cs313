@@ -2,6 +2,7 @@ div.container {
     display: flex;
 }
 div.contain{
+    display: grid;
     max-width: 50%;    
 }
 div {
