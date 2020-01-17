@@ -1,36 +1,51 @@
 * {
     box-sizing: border-box;
-  }
-  
-  body {
+}
+
+body {
     margin: 0;
-  }
-  
-  /* Style the header */
-  .header {
-    background-image: url('shared/images/shipwreck.jpeg');
+    
+}
+
+/* Style the header */
+.header {
     padding: 20px;
     text-align: center;
-  }
-  
-  /* Style the top navigation bar */
-  .topnav {
+    /*background-color: aqua;*/
+    
+}
+
+.header-background {
+    background: url('shared/images/shipwreck.jpeg');
+    width: 100%;
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Style the top navigation bar */
+
+.topnav {
     overflow: hidden;
     background-color: #333;
-  }
-  
-  /* Style the topnav links */
-  .topnav a {
+}
+
+/* Style the topnav links */
+
+.topnav a {
     float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
-  
-  /* Change color on hover */
-  .topnav a:hover {
+}
+
+/* Change color on hover */
+
+.topnav a:hover {
     background-color: #ddd;
     color: black;
-  }
+}
