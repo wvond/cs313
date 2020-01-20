@@ -11,15 +11,15 @@
       <link rel='stylesheet' type='text/css' href='shared/boot-css/bootstrap-grid.css'>
   </head>
   
-  <body>'";
+  <body>";
 
-  include 'shared/header.php';
+  include './shared/header.php';
 
   echo '<div class="main-content">
   <h2>Assignments Coming Soon!</h2>
   </div>';
 
-  include 'shared/footer.php';
+  include './shared/footer.php';
   
   echo '</body>
 
