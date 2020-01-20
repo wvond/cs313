@@ -11,7 +11,7 @@
       <link rel='stylesheet' type='text/css' href='shared/boot-css/bootstrap-grid.css'>
   </head>
   
-  <body>'";
+  <body>";
 
   include 'shared/header.php';
 
