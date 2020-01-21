@@ -7,8 +7,8 @@
       <meta charset='utf-8' />
       <meta name='viewport' content='width=device-width, initial-scale=1.0'>
       <title>CS313 Assignments</title>
-      <link rel='stylesheet' type='text/css' href='shared/header-nav.css'>
-      <link rel='stylesheet' type='text/css' href='shared/boot-css/bootstrap-grid.css'>
+      <link rel='stylesheet' type='text/css' href='../shared/header-nav.css'>
+      <link rel='stylesheet' type='text/css' href='../shared/boot-css/bootstrap-grid.css'>
   </head>
   
   <body>";
