@@ -7,7 +7,7 @@
    <body>
       <?php
          // remove previous session variable
-
+         //unset($_SESSION['pictureUrl']);
          // Set session variables
          $_SESSION["favcolor"] = "green";
          $_SESSION["favanimal"] = "dolphin";
@@ -23,9 +23,9 @@
       </form>
       <?php // set session variables using a form 
          if(isset($_POST['Submit'])) {
-            $_SESSION['pictureUrl'] = $_POST['pisture'];
+            $_SESSION['pictureUrl'] = $_POST['picture'];
          }
-         
+
       ?>
    </body>
 </html>
