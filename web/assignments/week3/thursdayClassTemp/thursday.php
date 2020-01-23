@@ -20,7 +20,7 @@
          }
          else {
             echo "Cookie named $cookie_name is set!<br>";
-            echo "Value is $_COOKIE[$cookie_value]";
+            echo "Value is ".$_COOKIE[$cookie_value];
          }
       ?>
       <h3>To print all cookies:</h3>
