@@ -1,5 +1,5 @@
 <?php
-include '...../shared/header.php';
+include '....../shared/header.php';
 /* ATN Simple Cart
  * Copyright 2014 ATN Solutions
  * http://www.atnsolutions.com
