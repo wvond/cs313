@@ -13,10 +13,10 @@
 
   <?php include '../shared/header.php'; ?>
 
-  <div class="container">
+  <div class="container links">
     <div class="row">
       <div class="col">
-        <a href="./web/assignments/week3/shoppingCart/cart-iframe.php">Shopping Cart</a>
+        <a href="./week3/shoppingCart/cart-iframe.php">Shopping Cart</a>
       </div>
       <div class="col">
         <a href="">Week 4</a>

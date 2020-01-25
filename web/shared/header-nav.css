@@ -58,3 +58,11 @@ img {
 .main-content {
     text-align: center;
 }
+
+.links a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    color: black;
+    background-color: #ddd;
+}

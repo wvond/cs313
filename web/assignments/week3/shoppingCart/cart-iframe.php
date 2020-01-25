@@ -1,4 +1,5 @@
 <?php
+include '../shared/header.php';
 /* ATN Simple Cart
  * Copyright 2014 ATN Solutions
  * http://www.atnsolutions.com
@@ -150,6 +151,8 @@
 
 <div id="popup" class="alert alert-warning"></div>
 
-<iframe id="ajax-ifr" name="ajax-ifr" src="empty.html" class="no-visibility" width="1" height="1"> </iframe>
+<?php include '../shared/footer.php'; ?>
+
+<!-- <iframe id="ajax-ifr" name="ajax-ifr" src="empty.html" class="no-visibility" width="1" height="1"> </iframe> -->
 
 <script src="js/atn-cart.js"></script>
