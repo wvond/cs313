@@ -1,5 +1,5 @@
 <?php
-include '../shared/header.php';
+include '...../shared/header.php';
 /* ATN Simple Cart
  * Copyright 2014 ATN Solutions
  * http://www.atnsolutions.com
@@ -151,7 +151,7 @@ include '../shared/header.php';
 
 <div id="popup" class="alert alert-warning"></div>
 
-<?php include '../shared/footer.php'; ?>
+<?php include '...../shared/footer.php'; ?>
 
 <!-- <iframe id="ajax-ifr" name="ajax-ifr" src="empty.html" class="no-visibility" width="1" height="1"> </iframe> -->
 
