@@ -53,3 +53,10 @@
 {
 	text-decoration:underline;
 }
+
+.product_display img
+{
+	max-width: 500px;
+	height: auto;
+	
+}
