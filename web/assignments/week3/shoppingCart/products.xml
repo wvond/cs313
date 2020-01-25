@@ -1,0 +1,29 @@
+<my_products>
+	<product>
+		<id>1</id>
+		<name>Rainbow Trout</name>
+		<price>49.00</price>
+		<description>
+			Trout in a stream in SE Idaho
+		</description>
+		<details_link>www.google.com</details_link>
+	</product>
+	<product>
+		<id>2</id>
+		<name>Steelhead Trout</name>
+		<price>69.00</price>
+		<description>
+			Steelhead on the line in Pacific Northwest
+		</description>
+		<details_link>www.yahoo.com</details_link>
+	</product>
+	<product>
+		<id>3</id>
+		<name>Brook Trout</name>
+		<price>49.00</price>
+		<description>
+			Brook Trout caught in a river in the West
+		</description>
+		<details_link>www.google.com</details_link>
+	</product>
+</my_products>

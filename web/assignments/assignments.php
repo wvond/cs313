@@ -13,8 +13,40 @@
 
   <?php include '../shared/header.php'; ?>
 
-  <div class="main-content">
-    <h2>Assignments Coming Soon!</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <a href="./web/assignments/week3/shoppingCart/cart-iframe.php">Shopping Cart</a>
+      </div>
+      <div class="col">
+        <a href="">Week 4</a>
+      </div>
+      <div class="col">
+        <a href="">Week 5</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <a href="">Week 6</a>
+      </div>
+      <div class="col">
+        <a href="">Week 7</a>
+      </div>
+      <div class="col">
+        <a href="">Week 8</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <a href="">Week 9</a>
+      </div>
+      <div class="col">
+        <a href="">Week 10</a>
+      </div>
+      <div class="col">
+        <a href="">Week 11</a>
+      </div>
+    </div>
   </div>
 
   <?php include '../shared/footer.php'; ?>
