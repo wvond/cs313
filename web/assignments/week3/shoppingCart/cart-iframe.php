@@ -22,21 +22,11 @@ include '....../shared/header.php';
 			$file="products.xml";
 		}
 		else
-		if(file_exists("products.xml"))
-		{
-			$file="products.xml";
-		}
-		else
 		{
 			die("No products.xml file found");
 		}
 		
 		//Loading the config.xml file
-		if(file_exists("config.xml"))
-		{
-			$config_file="config.xml";
-		}
-		else
 		if(file_exists("config.xml"))
 		{
 			$config_file="config.xml";
@@ -63,6 +53,7 @@ include '....../shared/header.php';
 			$script_product_prices.="product_prices[".($r->id)."]=\"".($r->price)."\";\n";
 		?>	
 			<div>
+			<img src="<?php echo $r->image_link?>">
 			<p class="lead">
 				<h3 class="pull-right no-top-margin"><?php echo $currency_symbol;?><?php echo $r->price;?></h3>
 				<h3><?php echo $r->name;?></h3>

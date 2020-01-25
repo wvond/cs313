@@ -7,6 +7,7 @@
 			Trout in a stream in SE Idaho
 		</description>
 		<details_link>www.google.com</details_link>
+		<image_link>./images/rainbow.jpeg</image_link>
 	</product>
 	<product>
 		<id>2</id>
@@ -16,6 +17,7 @@
 			Steelhead on the line in Pacific Northwest
 		</description>
 		<details_link>www.yahoo.com</details_link>
+		<image_link>./images/steelhead.jpeg</image_link>
 	</product>
 	<product>
 		<id>3</id>
@@ -25,5 +27,6 @@
 			Brook Trout caught in a river in the West
 		</description>
 		<details_link>www.google.com</details_link>
+		<image_link>./images/brook.jpeg</image_link>
 	</product>
 </my_products>

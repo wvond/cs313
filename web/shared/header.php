@@ -1,7 +1,6 @@
-<?php 
-echo '<div class="header-background">
+<div class="header-background">
 <div class="header container">
-    <h1>Will Von Doersten\'s Home Page</h1>
+    <h1>Will Von Doersten's Home Page</h1>
 </div>
 </div>
 
@@ -10,4 +9,3 @@ echo '<div class="header-background">
 <a href="./assignments/assignments.php">Assignments</a>
 <a href="https://www.linkedin.com/in/william-von-doersten/">LinkedIn</a>
 </div>';
-?>
