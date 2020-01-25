@@ -3,7 +3,9 @@
  * http://www.atnsolutions.com
  *
  * Licensed under the Apache License v2.0
- * http://www.apache.org/licenses/LICENSE-2.0 */ 
+ * http://www.apache.org/licenses/LICENSE-2.0 
+ * 
+ * Altered by Will Von Doersten for CS313 */ 
  
  var cart_products = Array();
 var cart_quantities = Array();
@@ -35,7 +37,7 @@ function AddToCart(x)
 		cart_products.push(x);
 		cart_quantities[x] = 1;
 	}
-	ShowPopup("The product was added successfully to your cart!");
+	ShowPopup("The product was added to your cart!");
 	UpdateCart();
 }
 

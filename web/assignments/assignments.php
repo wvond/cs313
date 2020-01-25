@@ -16,7 +16,7 @@
   <div class="container links">
     <div class="row">
       <div class="col">
-        <a href="./week3/shoppingCart/cart-iframe.php">Shopping Cart</a>
+        <a href="./week3/shoppingCart/shoppingCart.php">Shopping Cart</a>
       </div>
       <div class="col">
         <a href="">Week 4</a>

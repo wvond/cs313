@@ -4,9 +4,9 @@
 		<name>Rainbow Trout</name>
 		<price>49.00</price>
 		<description>
-			Trout in a stream in SE Idaho
+			Rainbow Trout in a stream in SE Idaho.
 		</description>
-		<details_link>www.google.com</details_link>
+		<details_link>https://en.wikipedia.org/wiki/Rainbow_trout</details_link>
 		<image_link>./images/rainbow.jpg</image_link>
 	</product>
 	<product>
@@ -14,9 +14,9 @@
 		<name>Steelhead Trout</name>
 		<price>69.00</price>
 		<description>
-			Steelhead on the line in Pacific Northwest
+			Steelhead in hand in the Pacific Northwest.
 		</description>
-		<details_link>www.yahoo.com</details_link>
+		<details_link>https://en.wikipedia.org/wiki/Steelhead_trout</details_link>
 		<image_link>./images/steelhead.jpg</image_link>
 	</product>
 	<product>
@@ -26,7 +26,27 @@
 		<description>
 			Brook Trout caught in a river in the West
 		</description>
-		<details_link>www.google.com</details_link>
+		<details_link>https://en.wikipedia.org/wiki/Brook_trout</details_link>
 		<image_link>./images/brook.jpg</image_link>
+	</product>
+	<product>
+		<id>4</id>
+		<name>Brown Trout</name>
+		<price>55.00</price>
+		<description>
+			Brown Trout caught in a river in the Western United States.
+		</description>
+		<details_link>https://en.wikipedia.org/wiki/Brown_trout</details_link>
+		<image_link>./images/brown.jpg</image_link>
+	</product>
+	<product>
+		<id>5</id>
+		<name>Cutthroat Trout</name>
+		<price>69.00</price>
+		<description>
+			Rio Grande Cutthroat Trout in hand.
+		</description>
+		<details_link>https://en.wikipedia.org/wiki/Rio_Grande_cutthroat_trout</details_link>
+		<image_link>./images/cutthroat.jpg</image_link>
 	</product>
 </my_products>

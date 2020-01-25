@@ -119,8 +119,6 @@ include '....../shared/header.php';
 			<img src="images/paypal.png" alt="Payment through PayPal.com" />
 		<?php
 		}
-
-
 		?>
 		<div class="clearfix"></div>
 		<br /><br />
@@ -132,9 +130,5 @@ include '....../shared/header.php';
 
 
 <div id="popup" class="alert alert-warning"></div>
-
-<?php include '...../shared/footer.php'; ?>
-
-<!-- <iframe id="ajax-ifr" name="ajax-ifr" src="empty.html" class="no-visibility" width="1" height="1"> </iframe> -->
-
 <script src="js/atn-cart.js"></script>
+<?php include '..../shared/footer.php'; ?>
