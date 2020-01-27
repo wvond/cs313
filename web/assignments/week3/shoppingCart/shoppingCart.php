@@ -82,9 +82,9 @@ include 'https://pacific-refuge-37041.herokuapp.com/shared/header.php';
 	<div class="col-md-1">
 		<!--margin between the 2 columns-->
 	</div>
-	<div class="col-md-4" style="position: fixed">
+	<div class="col-md-4">
 		<br /><br />
-		<div class="panel panel-default cart-panel">
+		<div class="panel panel-default cart-panel" style="position: fixed">
 			<div class="panel-heading">
 				<img class="pull-left add-right-margin" height="20" src="images/cart-m.png" />
 				<h3 class="pull-left panel-title">Your Cart</h3>
