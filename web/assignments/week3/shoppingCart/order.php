@@ -27,6 +27,7 @@
       <p>Products - 
       <?php for($i=0; $i < count($products); $i++) {
       echo $products[$i]." - ".$cost[$i]."<br>";}?> </p>
+      <p>array contents <?php echo $products." ".$cost."<br>";?></p>
       
       
     </div>
