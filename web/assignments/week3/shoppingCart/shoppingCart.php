@@ -61,7 +61,6 @@
 					</p>
 					<br />
 					<?php
-					//If there is details link set for the product, show a Details button
 					if (trim($r->details_link) != "") {
 					?>
 						<a target="_blank" href="http://<?php echo str_replace("http://", "", trim($r->details_link)); ?>" class="btn btn-xs btn-default add-right-margin">Details</a>
@@ -85,7 +84,6 @@
 
 		</div>
 		<div class="col-md-1">
-			<!--margin between the 2 columns-->
 		</div>
 		<div class="col-md-4">
 			<br /><br />
