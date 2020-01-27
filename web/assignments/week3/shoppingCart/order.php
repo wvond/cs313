@@ -25,8 +25,8 @@
       <p><?php echo $city; ?>, <?=$state?> <?=$zip?></p>
       <p>Order Summary:</p>
       <p>Products - 
-      <?php for($i=0; $i < count($products); $i++)
-      echo $products[$i] - $cost[$i] ."<br>";?> </p>
+      <?php for($i=0; $i < count($products); $i++) {
+      echo $products[$i] - $cost[$i] ."<br>";}?> </p>
       
       
     </div>
