@@ -1,5 +1,5 @@
 <?php
-include '....../shared/header.php';
+include 'https://pacific-refuge-37041.herokuapp.com/shared/header.php';
 /* ATN Simple Cart
  * Copyright 2014 ATN Solutions
  * http://www.atnsolutions.com
@@ -82,7 +82,7 @@ include '....../shared/header.php';
 	<div class="col-md-1">
 		<!--margin between the 2 columns-->
 	</div>
-	<div class="col-md-4">
+	<div class="col-md-4" style="position: fixed">
 		<br /><br />
 		<div class="panel panel-default cart-panel">
 			<div class="panel-heading">
