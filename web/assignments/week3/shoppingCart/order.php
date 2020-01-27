@@ -25,9 +25,7 @@
       <p><?php echo $city; ?>, <?=$state?> <?=$zip?></p>
       <p>Order Summary:</p>
       <p>Products - 
-      <?php foreach ($products as $value) {
-          echo "$value <br>";
-      } ?> </p>
+      <?php echo "$products <br>";?> </p>
       <p>Cost - 
       <?php foreach ($cost as $value) {
           echo "$value <br>";
