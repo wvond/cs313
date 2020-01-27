@@ -140,5 +140,5 @@
 
 
 	<div id="popup" class="alert alert-warning"></div>
-	<script src="js/atn-cart.js"></script>
+	<script src="js/cart.js"></script>
 	<?php include '..../shared/footer.php'; ?>
