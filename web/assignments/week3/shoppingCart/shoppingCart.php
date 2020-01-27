@@ -130,16 +130,6 @@
 			Zip Code:
 			<input type="number" maxlength="5" name="zip"><br>
 
-			<?php
-			$first_option = true;
-
-			if (trim($xml_config->configuration->paypal_account) != "") {
-			?>
-				<input <?php if ($first_option) echo "checked"; ?> type="radio" name="payment_option" value="paypal" />
-				<img src="images/paypal.png" alt="Payment through PayPal.com" />
-			<?php
-			}
-			?>
 			<div class="clearfix"></div>
 			<br><br>
 			<a href="javascript:GoToCart()" class="btn btn-xs btn-default add-right-margin">Go back to cart</a>

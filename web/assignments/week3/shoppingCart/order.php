@@ -25,11 +25,9 @@
       <p><?php echo $city; ?>, <?=$state?> <?=$zip?></p>
       <p>Order Summary:</p>
       <p>Products - 
-      <?php echo "$products <br>";?> </p>
-      <p>Cost - 
-      <?php foreach ($cost as $value) {
-          echo "$value <br>";
-      } ?> </p>
+      <?php for($i=0; $i < count($products); $i++)
+      echo $products[$i] - $cost[$i] ."<br>";?> </p>
+      
       
     </div>
   </body>
