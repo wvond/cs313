@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Order Confirmation</title>
+    <link rel='stylesheet' type='text/css' href='header-nav.css'>
 </head>
 
 <body>
@@ -41,13 +42,8 @@
             } ?></p>
         <p><?php echo $city; ?>, <?= $state ?> <?= $zip ?></p>
         <p>Order Summary:</p>
-        <p>Products -
-            <?php for ($i = 0; $i < count($products); $i++) {
-                echo $products[$i] . " - " . $cost[$i] . "<br>";
-            } ?> </p>
-        <p>array contents <?php echo $products . " " . $cost . "<br>"; ?></p>
-
-
+        <p>Products - <?php echo $products."<br>";?></p>
+        <p>Order Total: $<?=$cost?></p>
     </div>
 </body>
 
