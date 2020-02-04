@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "C:\\Users\\willv\\cs313-php\\db"
 		}
 	],
 	"settings": {
