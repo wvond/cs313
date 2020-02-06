@@ -1,0 +1,26 @@
+After completing the assignment, please answer the questions in this text file and submit it to I-Learn.
+
+1. Provide a link to your myDb.sql file at GitHub (the file that contains all the SQL commands needed to create your database).
+https://github.com/wvond/cs313/tree/master/db
+
+2. Describe something from your database that you think came together very nicely.
+I think all the foreign keys came together nicely to all be able to be referenced from the fish table.
+
+3. Describe something from your database that you think could be improved or extended in the future.
+I think the photo tabel could be improved because right now there is only a url for a link to the photo.
+
+4. Briefly describe the "coolest" thing you learned while completing this assignment.
+I liked being able to model my database using an online software to get an idea of how it would work.
+
+5. Briefly describe two principles of good database design.
+Eliminate data redundancy and have good, descriptive table names and column names.
+
+6. Please select the category you feel best describes your assignment:
+
+5 - Shows creativity and excels above and beyond requirements
+
+
+7. Provide a brief justification (1-2 sentences) for selecting that category.
+See the screenshot(https://github.com/wvond/cs313/blob/master/web/files/Project%201/DB%20diagram.png) 
+of my layout in a visual representation.  I think this method helped to create a database that is clear and will be 
+easy to manage.
