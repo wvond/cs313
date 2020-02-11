@@ -4,7 +4,9 @@ $db = get_db();
 ?>
 
 <body>
-   <?php include '../../../shared/header.php'; ?>
+   <?php 
+      include '../../../shared/header-nav.css';
+      include '../../../shared/header.php'; ?>
    <div class="container">
       <?php
       $personId = $_GET['personId'];
@@ -32,6 +34,7 @@ $db = get_db();
       ?>
 
    </div>
+   <?php include '../../../shared/footer.php'; ?>
 </body>
 
 </html>
