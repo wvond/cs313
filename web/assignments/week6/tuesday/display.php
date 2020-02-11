@@ -4,6 +4,7 @@ $db = get_db();
 ?>
 
 <body>
+   <?php include '../../../shared/header.php'; ?>
    <div class="container">
       <?php
       $personId = $_GET['personId'];

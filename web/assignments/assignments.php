@@ -27,7 +27,7 @@
     </div>
     <div class="row">
       <div class="col">
-        <a href="">Week 6</a>
+        <a href="./week6/tuesday/index.php">Week 6</a>
       </div>
       <div class="col">
         <a href="">Week 7</a>
