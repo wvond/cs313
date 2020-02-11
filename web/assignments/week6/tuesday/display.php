@@ -21,7 +21,7 @@ $db = get_db();
          while ($fRow = $foods->fetch(PDO::FETCH_ASSOC)) {
             $food = $fRow['food'];
          }
-         echo "<h1>$fist $last's favorite food is $food</h1>";
+         echo "<h1>$first $last's favorite food is $food</h1>";
       }
 
 
