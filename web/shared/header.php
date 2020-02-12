@@ -1,4 +1,9 @@
-<link type="stylesheet/css" href="~/shared/header-nav.css">
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="stylesheet/css" href="~/shared/header-nav.css">
+</head>
 
 <div class="header-background">
 <div class="header container">
